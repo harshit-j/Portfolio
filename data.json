@@ -1,0 +1,168 @@
+{
+	"frontend":[
+		{
+			"title":"Agency Theme",
+			"img":"agency.png",
+			"column":4,
+			"url":"https://harshit-j.github.io/Agency-theme/",
+			"description":"<p class='popup-paragraph'>A responsive landing page theme for a web development agency. It is a created with Bootstrap and inspired by W3Schools Bootstrap theme.</p>"
+		},
+		{
+			"title":"Band Theme",
+			"img":"band.png",
+			"column":4,
+			"url":"https://harshit-j.github.io/Band-Theme/",
+			"description":"<p class='popup-paragraph'>A responsive landing page theme for a band. It is a created with Bootstrap and inspired by W3Schools Bootstrap theme.</p>"
+		},
+		{
+			"title":"Simply Me Theme",
+			"img":"simply.png",
+			"column":4,
+			"url":"https://harshit-j.github.io/Simply-Me-Theme/",
+			"description":"<p class='popup-paragraph'>A responsive landing page theme for a personal bio. It is a created with Bootstrap and inspired by W3Schools Bootstrap theme.</p>"
+		}
+	],
+
+	"javascript":[
+		{
+			"title":"Stopwatch",
+			"img":"stop.png",
+			"column":4,
+			"url":"https://harshit-j.github.io/stopwatch/",
+			"description":"<p class='popup-paragraph'>A stopwatch app with rotating gear animation. It's a learning project using pure JavaScript. Bootstrap used for responsive design.<br><br><strong>Features:</strong></p><ul><li>Responsive design</li><li>Gear rotation according to animation play state</li><li>Split/Laps saved using localStorage</li><li>Keyboard shortcuts: Z for Play/Pause and X for Reset/Split</li></ul>"
+		},
+		{
+			"title":"Flex Panel Gallery",
+			"img":"accordian.jpg",
+			"column":4,
+			"url":"https://harshit-j.github.io/Practice-files-for-JavaScript30/05 - Flex Panel Gallery/",
+			"description":"<p class='popup-paragraph'>An accordian made using CSS flexbox and JavaScript.</p>"
+		},
+		{
+			"title":"JavaScript Drum Kit",
+			"img":"drum.png",
+			"column":6,
+			"url":"https://harshit-j.github.io/Practice-files-for-JavaScript30/01 - JavaScript Drum Kit/",
+			"description":"<p class='popup-paragraph'>Have fun and get creative playing various sounds by pressing displayed keys on the keyboard.</p>"
+		},
+		{
+			"title":"JS+CSS Clock",
+			"img":"clock.png",
+			"column":4,
+			"url":"https://harshit-j.github.io/Practice-files-for-JavaScript30/02%20-%20JS%20+%20CSS%20Clock/",
+			"description":"<p class='popup-paragraph'>A clock showing current system time using JavaScript and CSS.</p>"	
+		},
+		{
+			"title":"Type Ahead",
+			"img":"filter.png",
+			"column":4,
+			"url":"https://harshit-j.github.io/Practice-files-for-JavaScript30/06 - Type Ahead/",
+			"description":"<p class='popup-paragraph'>Filter and show search results from JSON using RegEx.</p>"	
+		},
+		{
+			"title":"Custom UI for HTML5 Video Player",
+			"img":"video.jpg",
+			"column":4,
+			"url":"https://harshit-j.github.io/Practice-files-for-JavaScript30/11 - Custom Video Player/",
+			"description":"<p class='popup-paragraph'>A custom UI created using CSS and JavaScript for video tag in HTML5.</p>"	
+		},
+		{
+			"title":"Update CSS Variables with JS",
+			"img":"blur.jpg",
+			"column":4,
+			"url":"https://harshit-j.github.io/Practice-files-for-JavaScript30/03 - CSS Variables/",
+			"description":"<p class='popup-paragraph'>Updating padding and blur filter of an image with sliders.</p>"
+		},
+		{
+			"title":"Slide in on Scroll",
+			"img":"slide.png",
+			"column":4,
+			"url":"https://harshit-j.github.io/Practice-files-for-JavaScript30/13 - Slide in on Scroll/",
+			"description":"<p class='popup-paragraph'>Slide images when they come into viewport upon scrolling.</p>"	
+		},
+		{
+			"title":"Mouse Move Shadow",
+			"img":"mouse.png",
+			"column":4,
+			"url":"https://harshit-j.github.io/Practice-files-for-JavaScript30/16 - Mouse Move Shadow/",
+			"description":"<p class='popup-paragraph'>Move colourful text shadows in different directions when mouse moves.</p>"	
+		},
+		{
+			"title":"Fun with HTML5 Canvas",
+			"img":"canvas.png",
+			"column":6,
+			"url":"https://harshit-j.github.io/Practice-files-for-JavaScript30/08 - Fun with HTML5 Canvas/",
+			"description":"<p class='popup-paragraph'>A paint app using HTML5 Canvas where the stroke size and color keeps changing.</p>"	
+		},
+		{
+			"title":"Countdown Timer",
+			"img":"timer.png",
+			"column":4,
+			"url":"https://harshit-j.github.io/Practice-files-for-JavaScript30/29 - Countdown Timer/",
+			"description":"<p class='popup-paragraph'>A timer app with many presets. The user can also set custom value for the timer.</p>"	
+		},
+		{
+			"title":"Video Speed Controller",
+			"img":"speed.jpg",
+			"column":4,
+			"url":"https://harshit-j.github.io/Practice-files-for-JavaScript30/28 - Video Speed Controller/",
+			"description":"<p class='popup-paragraph'>Change speed of video playback using JavaScript.</p>"	
+		},
+		{
+			"title":"Click and Drag",
+			"img":"drag.png",
+			"column":4,
+			"url":"https://harshit-j.github.io/Practice-files-for-JavaScript30/27 - Click and Drag/",
+			"description":"<p class='popup-paragraph'>Scroll page horizontally by holding mouse and dragging.</p>"	
+		},
+		{
+			"title":"Whack-A-Mole!",
+			"img":"whack.png",
+			"column":4,
+			"url":"https://harshit-j.github.io/Practice-files-for-JavaScript30/30 - Whack A Mole/",
+			"description":"<p class='popup-paragraph'>A game where the user has to click the maximum number of hiding moles until time runs out.</p>"	
+		},
+		{
+			"title":"Follow Along Link Highlighter",
+			"img":"follow.png",
+			"column":4,
+			"url":"https://harshit-j.github.io/Practice-files-for-JavaScript30/22 - Follow Along Link Highlighter/",
+			"description":"<p class='popup-paragraph'>Animating and resizing link hightlights according to size of text when links are hovered by mouse.</p>"	
+		},
+		{
+			"title":"Stripe Follow Along Nav",
+			"img":"follow2.png",
+			"column":4,
+			"url":"https://harshit-j.github.io/Practice-files-for-JavaScript30/26 - Stripe Follow Along Nav/",
+			"description":"<p class='popup-paragraph'>A morphing dropdown that animates according to the size of its content.</p>"
+		},
+		{
+			"title":"Sticky Nav",
+			"img":"nav.png",
+			"column":4,
+			"url":"https://harshit-j.github.io/Practice-files-for-JavaScript30/24 - Sticky Nav/",
+			"description":"<p class='popup-paragraph'>A sticky navigation bar using JavaScript.</p>"
+		}
+		
+
+	],
+
+	"django":[
+		{
+			"title":"VotePlex",
+			"img":"vote.png",
+			"column":6,
+			"url":"https://voteplexproject.herokuapp.com/",
+			"description":"<p class='popup-paragraph'> A voting webapp with charts. Create fun little polls and share with friends. It's written using Django framework. <br> <br> <strong>Features:</strong> </p> <ul> <li> Responsive design</li> <li> Account registration</li> <li> Edit and delete polls</li> <li> Colourful charts</li> <li> Restriction on voting using cookies and user account</li> </ul>"
+},
+		{
+			"title":"Blog app",
+			"img":"blog.png",
+			"column":6,
+			"url":"https://dj-blog-app.herokuapp.com/",
+			"description":"<p class='popup-paragraph'>A simple blog app created with Django after following the Django Girls tutorial. <br> <br> <strong>Features:</strong> </p> <ul><li>Ability to publish posts later</li> <li> Comments feature</li><li>Contact Us page</li><li>Approve comments for moderation purposes</li></ul>"
+		}
+	]
+
+
+}

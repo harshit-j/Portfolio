@@ -1,0 +1,309 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+}
+
+h1,.description,.popup-head {
+    font-family: "Roboto Slab";
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    border-left: 5px solid #ffc600;
+    padding: 10px;
+    display: inline-block;
+    background: black;
+    color: #ffc600;
+    letter-spacing: .5px;
+    font-size: 1.5625em;
+}
+
+#frontend h1 {
+    margin-top: 45px;
+}
+
+h2 {
+    font-size: 31px;
+}
+
+#info p {
+    padding-top: 2.3em;
+    font-size: 1.25em;
+    letter-spacing: .5px;
+}
+
+
+
+/*********** Header ************/
+
+.header {
+    padding: 4em 0 0 ;
+    border-bottom: 1px solid #f2f2f2
+}
+
+.header .logo {
+    display: block;
+    border-bottom: 0;
+    color: inherit;
+    font-weight: 900;
+    letter-spacing: 0.35em;
+    font-size: 1.1em;
+    margin: 0 0 2.5em 0.65em;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+/************ Projects ************/
+
+.projects {
+    margin: 30px 0px;
+}
+
+.projects>div>div {
+    padding-bottom: calc( 0.6999 * ( 100% - 30px));
+    margin-bottom: 30px;
+}
+
+/************* Hover *************/
+
+.open-popup-link {
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    right: 15px;
+    left: 15px!important;
+    box-shadow: 0px 0px 2px grey;
+}
+
+ a img {
+	opacity: 1;
+}
+
+ a:hover img {
+    opacity: 1;
+}
+
+ a div {
+    position: absolute;
+    text-align: center;
+    color: #ffc600;
+    text-transform: uppercase;
+    transition: opacity .5s ;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: black;
+}
+
+ a:hover div {
+    opacity: 0.8;
+}
+
+ a h3 {
+    display: block;
+    letter-spacing: 5px;
+    padding: 0 10px;
+    transform: translateY(-50%);
+    top: 50%;
+    position: relative;
+    margin: 0;
+}
+
+/**************popup**************/
+
+.white-popup {
+    position: relative;
+    background: grey;
+    padding: 0px;
+    width: auto;
+    margin: 0px auto;
+}
+
+.popup-head {
+    margin: 0px 15px 30px 15px;
+    border-bottom: 3px solid gold;
+    padding: 50px 0 5px;
+}
+
+.popup-paragraph {
+    padding: 0px 15px;
+    max-width: 590px;
+    margin-bottom: 0;
+}
+
+.white-popup ul {
+    margin: 0 20px 0 0;
+}
+
+.white-popup img {
+    margin: 0px auto;
+}
+
+.white-popup>div:first-child {
+    padding-left: 0px;
+    max-height: 75vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 0px;
+}
+
+.white-popup>div:nth-child(2) {
+    background: white;
+}
+
+.mfp-wrap {
+    top: 0px !important;
+    height: 100% !important;
+}
+
+.mfp-close-btn-in .mfp-close {
+    color: #ffc600!important;
+    background-color: black;
+    transition: opacity 0.2s;
+}
+
+.mfp-close-btn-in .mfp-close:active {
+    top: 0;
+    opacity: 0.8
+}
+
+.white-popup a.btn {
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -ms-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+    font-size: 16px;
+    color: #ffc600;
+    background-color: black;
+    margin-top: 30px;
+    padding: 10px 20px;
+    opacity: 0.65;
+    margin-left: 15px
+}
+
+.white-popup .glyphicon {
+    top: 2px;
+}
+.white-popup a.btn:hover {
+    opacity: 1
+}
+
+.white-popup a.btn:active {
+    opacity: 0.8
+}
+
+/************* Icons **************/
+
+.icons {
+    background-color: #f2f3f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.git,.fb {
+    -moz-transition: background-color 0.2s ease-in;
+    -webkit-transition: background-color 0.2s ease-in;
+    -ms-transition: background-color 0.2s ease-in;
+    transition: background-color 0.2s ease-in;
+    width: 72px;
+    height: 72px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background-color: transparent;
+}
+
+.icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    transition: height 0.1s,width 0.1s
+}
+
+.git a {
+    background-color: black
+}
+
+.fb a {
+    background-color: #0077B5;
+}
+
+.icons a:hover{
+    height:63px;
+    width: 63px;
+}
+
+/********** Media Queries ************/
+
+@media screen and (max-width: 768px) {
+    a div {
+        top: 0px;
+        bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .mfp-content .white-popup .col-md-4 {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .projects>.small>div {
+        padding-bottom: 21.5%;
+    }
+
+    .projects>.big>div {
+        padding-bottom: 33.5%;
+    }
+
+    .projects>div>div>div {
+        left: 0px;
+    }
+
+    .white-popup {
+        background: transparent;
+    }
+
+    .white-popup {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .mfp-wrap {
+        top: 0px !important;
+        height: 100% !important;
+    }
+
+    .description {
+        font-size: 1em
+    }
+
+    .white-popup>div:first-child {
+        max-height: 70vh;
+    }
+
+    .white-popup>div:nth-child(2) {
+        box-shadow: 0 -2px 2px grey;
+        padding-bottom: 20px;
+        font-size: 0.95em
+    }
+
+    .popup-head {
+        padding-top: 30px;
+    }
+}
